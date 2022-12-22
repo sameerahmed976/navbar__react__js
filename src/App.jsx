@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import { links, social } from "./data/data.js";
+import { links } from "./data/data.js";
 import {
   FaBehance,
   FaFacebook,
@@ -51,19 +51,32 @@ const App = () => {
           </ul>
         </div>
 
-        {/* <aside className="sidebar">
-          <section className="sidebar__container">
-            <ul>
-              {links.map((item) => {
-                return (
-                  <li>
-                    <a href={item.url}>{item.text}</a>
-                  </li>
-                );
-              })}
+        <div className="social">
+          <section className="social__container">
+            <ul className="social__links">
+              <li>
+                <a href="#">
+                  <FaTwitter />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaFacebook />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaBehance />
+                </a>
+              </li>
             </ul>
           </section>
-        </aside> */}
+        </div>
       </header>
     </>
   );

@@ -25,22 +25,3 @@ export const links = [
     text: "profile",
   },
 ];
-
-export const social = [
-  {
-    id: 1,
-    url: "https://www.twitter.com",
-  },
-  {
-    id: 2,
-    url: "https://www.twitter.com",
-  },
-  {
-    id: 3,
-    url: "https://www.twitter.com",
-  },
-  {
-    id: 4,
-    url: "https://www.twitter.com",
-  },
-];
